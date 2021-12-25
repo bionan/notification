@@ -1,0 +1,24 @@
+{
+    "name": "bionan/notification",
+    "description": "biblioteca que utiliza o composer como base para gerar notificações por email",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Antonio Sousa",
+            "email": "bionan_2000@yahoo.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "phpmailer/phpmailer": "6.5.3"
+    },
+    "config": {
+        "vendor-dir": "bib-ext"
+    },
+    "autoload": {
+        "psr-4": {
+            "Notification\\":"_app"
+        }
+    }
+}

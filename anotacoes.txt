@@ -1,0 +1,25 @@
+*** composer init
+    Iniciar o composer
+
+*** composer require nome/nome:versao
+    Exemplo: composer require phpmailer/phpmaileer:6.5.3
+
+*** Ir a composer.json, alterar a versão de algum pacote
+    e atualizar usando composer update
+
+*** composer remove autor/pacote
+    composer remove phpmailer/phpmailer
+
+*** composer list: lista todos os comandos disponíveis
+
+*** composer clearcache: limpa o cache do composer
+
+*** A pasta vendor não deve ser manipulada de forma alguma. Se alguma coisa 
+    correu mal com o código, devemos eliminar a pasta vendor e pedir ao composer
+    para reinstalar todo o software necessário, utilizando composer update
+
+*** composer dump-autoload ou dumpautoload
+    Limpa e recarregar o as definições do autoload
+
+*** No vídeo GERENCIANDO DEPENDÊNCIA observar que o autoload só 
+    foi feitouma única vez e no ficheiro de arranque da aplicação (index.php)!
